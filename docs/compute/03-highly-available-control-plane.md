@@ -28,8 +28,4 @@ decarr-master-1 us-east-2b
 decarr-master-2 us-east-2c
 ```
 
-## OpenStack
-
-coming soon
-
 Next: [Workers](04-workers.md)

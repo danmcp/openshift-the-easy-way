@@ -9,4 +9,4 @@ spec:
   scaleTargetRef:
     apiVersion: cluster.k8s.io/v1alpha1
     kind: MachineSet
-    name: decarr-worker-us-east-2b
+    name: commonsdemo-worker-us-east-2b
