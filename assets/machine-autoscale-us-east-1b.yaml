@@ -1,12 +1,12 @@
 apiVersion: "autoscaling.openshift.io/v1alpha1"
 kind: "MachineAutoscaler"
 metadata:
-  generateName: autoscale-us-east-2b-
-  namespace: "openshift-cluster-api"
+  generateName: autoscale-us-east-1b-
+  namespace: "openshift-machine-api"
 spec:
   minReplicas: 1
   maxReplicas: 12
   scaleTargetRef:
     apiVersion: cluster.k8s.io/v1alpha1
     kind: MachineSet
-    name: commonsdemo-worker-us-east-2b
+    name: rhsummit2019-worker-us-east-1b

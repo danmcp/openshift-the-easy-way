@@ -1,5 +1,5 @@
-apiVersion: "autoscaling.openshift.io/v1alpha1"
-kind: "ClusterAutoscaler"
+apiVersion: autoscaling.openshift.io/v1alpha1
+kind: ClusterAutoscaler
 metadata:
-  name: "default"
-spec:
+  name: default
+spec: {}
